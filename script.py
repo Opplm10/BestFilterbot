@@ -34,13 +34,13 @@ Add me as admin in your group and start filtering :)
 /id  -  Shows ID information
 /info userid  -  Shows User Information. Use <code>/info</code> as reply to some message for their details!
 
-© @learningbots79
+© ᴄɪɴᴇᴍᴀᴡᴏʀʟᴅ_ᴜᴘᴅᴀᴛᴇ
 """
 
 AboutTxT = """
-⭕️ Official Channel : @learningbots79</b>
-⭕️ Developers : @TroJanzHEX 
-⭕️ Upgrader : @Mo_Tech_YT
+⭕️ Official Channel : @ᴄɪɴᴇᴍᴀᴡᴏʀʟᴅ_ᴜᴘᴅᴀᴛᴇ</b>
+⭕️ Developers : @Leomessi_10_19 
+⭕️ Upgrader : @Movieman_22
 ⭕️ Language : Python3
 ⭕️ Library : <a href='https://docs.pyrogram.org/'>Pyrogram 2.0.102</a> 
 """
