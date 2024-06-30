@@ -17,8 +17,8 @@ async def startCMD(client: FilterBot, message: Message):
       InlineKeyboardButton('Help', callback_data='main#help'),
       InlineKeyboardButton('About', callback_data='main#about')
       ],[
-      InlineKeyboardButton('Update', url='t.me/learningbots79'),
-      InlineKeyboardButton('Support', url='t.me/learning_bots')
+      InlineKeyboardButton('Update', url='t.me/cinemaworld_update'),
+      InlineKeyboardButton('Support', url='t.me/cinemaworld_123')
       ]]
 
     if "motech" == BOT_PICS[0]:
@@ -74,8 +74,8 @@ async def maincallback(client: FilterBot, message):
         keyboard = [[ InlineKeyboardButton('Add Me To Your Chat', url=f"t.me/{bot.username}?startgroup=true") ],
                     [ InlineKeyboardButton('Help', callback_data='main#help'),
                       InlineKeyboardButton('About', callback_data='main#about') ],
-                    [ InlineKeyboardButton('Update', url='t.me/learningbots79'),
-                      InlineKeyboardButton('Support', url='t.me/learning_bots') ]]
+                    [ InlineKeyboardButton('Update', url='t.me/cinemaworld_update'),
+                      InlineKeyboardButton('Support', url='t.me/cinemaworld_123') ]]
         await message.message.edit(text=StartTxT.format(mention=message.from_user.mention), reply_markup=InlineKeyboardMarkup(keyboard), disable_web_page_preview=True)
 
     elif type == "help":
